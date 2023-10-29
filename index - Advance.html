@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advance Search</title>
+        <style>
+            div {
+                padding: 15px;
+                text-align: right;
+                margin-bottom: 25px;
+            }
+            #input {
+                padding-left: 15px;
+                padding-top: 6;
+                display: inline-block;
+                line-height: 24px;
+                vertical-align: middle;
+                color: rgba(0,0,0,.87);
+                text-decoration: none;
+            }
+            #label {
+                text-align: left;
+                color: #d93025;
+                font-size: 20px;
+                font-weight: lighter;
+                margin-top: 25px;
+                margin-right: 35px;
+                margin-bottom: 25px;
+                margin-left: 35px;
+            }
+            form {
+                text-align: left;
+                margin: 100px;
+                padding: 00px;
+            }
+            #button {
+                background-color: #4d90fe;
+                border-color: #4d90fe;
+                color: white;
+                font-weight: bold;
+                margin-left: 572.5px;
+                margin-right: auto;
+                width: 150px;
+                height: 30px
+                
+                
+            }
+            h3 {
+                float: left;
+                
+                margin-top: 25px;
+                font-size: 18px;
+                margin-left: 100px;
+                font-weight: 500;
+                color: #333;
+
+            }
+            h4 {
+                text-align: left;
+                width: 167px;
+                display: inline-block;
+                color: #222;
+                font-size: 16px;  
+                font-weight: 100;
+            }
+            .border {
+                border-radius: 1px;
+                border: 1px solid #d9d9d9;
+                border-top: 1px solid #c0c0c0;
+                font-size: 13px;
+                height: 25px;
+                padding: 1px 8px;
+                width: 431.17px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="goofle.svg" alt="Google" width="74" height="24" display="inline-block"><br>
+        <div>
+            <a id="input" href="index.html">Go Back</a> 
+            <h2 id="label">Advanced Search</h2>
+        </div>
+        <h3>Find pages with...</h3>
+        <form action="https://google.com/search">
+            <h4>all these words:</h4>
+            <input type="text" class="border" name="as_q"><br>
+            <h4>this exact word or phrase:</h4>
+            <input type="text" class="border" name="as_epq"><br>
+            <h4>any of these words:</h4>
+            <input type="text" class="border" name="as_oq"><br>
+            <h4>none of these words:</h4>
+            <input type="text" class="border" name="as_eq"><br>
+            <input type="submit" id="button" value="Advanced Search">
+        </form>
+        
+        
+    </body>
+</html>
