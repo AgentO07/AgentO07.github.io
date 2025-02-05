@@ -3,23 +3,23 @@ import React from 'react';
 const testimonials = [
   {
     content: "SNSV's expertise in tax planning has been invaluable for our business growth. Their team's dedication and professionalism are outstanding.",
-    author: "Sarah Johnson",
-    position: "CEO",
-    company: "TechVision Inc.",
+    author: "Arpit Gupta",
+    position: "Founder",
+    company: "NUS CORP",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
   },
   {
     content: "Working with SNSV has transformed our financial operations. Their insights and strategic guidance have been game-changing.",
-    author: "Michael Chen",
-    position: "CFO",
-    company: "Global Solutions Ltd.",
+    author: "Malay Kholia",
+    position: "CEO",
+    company: "AuRa",
     image: "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
   },
   {
     content: "The level of personal attention and expertise we receive from SNSV is exceptional. They're not just advisors, they're partners in our success.",
-    author: "Emma Thompson",
-    position: "Director",
-    company: "Innovation Corp",
+    author: "Saksham Goel",
+    position: "Partner",
+    company: "Jind Surgicals",
     image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
   }
 ];
