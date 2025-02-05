@@ -50,7 +50,7 @@ const Contact = () => {
                   name="phone"
                   id="phone"
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-navy-500 focus:ring-navy-500"
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="+91 9034884850"
                 />
               </div>
               <div>
@@ -83,9 +83,9 @@ const Contact = () => {
                 Our Office
               </h3>
               <p className="mt-2 text-base text-gray-500">
-                123 Business Avenue<br />
-                Suite 100<br />
-                New York, NY 10001
+                39/19, VivekaNand Nagar<br />
+                Jind<br />
+                HR 126102
               </p>
             </div>
 
@@ -95,7 +95,7 @@ const Contact = () => {
                 Phone
               </h3>
               <p className="mt-2 text-base text-gray-500">
-                +1 (555) 123-4567
+                +91 90347 21570
               </p>
             </div>
 
@@ -105,7 +105,7 @@ const Contact = () => {
                 Email
               </h3>
               <p className="mt-2 text-base text-gray-500">
-                contact@snsv.com
+                office@snsv.com
               </p>
             </div>
 
