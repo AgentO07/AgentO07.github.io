@@ -5,13 +5,13 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const navItems = [
-    { label: 'Home', href: '/' },
-    { label: 'About Us', href: '/about' },
-    { label: 'Services', href: '/services' },
-    { label: 'Industries', href: '/industries' },
-    { label: 'Resources', href: '/resources' },
-    { label: 'Blog', href: '/blog' },
-    { label: 'Contact', href: '/contact' },
+    { label: 'Home', href: '#' },
+    { label: 'About Us', href: '#about' },
+    { label: 'Services', href: '#services' },
+    { label: 'Industries', href: '#industries' },
+    { label: 'Resources', href: '#resources' },
+    { label: 'Blog', href: '#blog' },
+    { label: 'Contact', href: '#contact' },
   ];
 
   return (
@@ -19,7 +19,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <span className="text-2xl font-bold text-navy-600">SNSV</span>
+            <a href="#" className="text-2xl font-bold text-navy-600">SNSV</a>
           </div>
           
           {/* Desktop Navigation */}
@@ -56,6 +56,7 @@ const Navigation = () => {
                 key={item.label}
                 href={item.href}
                 className="text-gray-700 hover:text-navy-600 block px-3 py-2 text-base font-medium"
+                onClick={() => setIsOpen(false)}
               >
                 {item.label}
               </a>

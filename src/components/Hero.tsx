@@ -18,7 +18,7 @@ const Hero = () => {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="/contact"
+                    href="#contact"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-navy-600 hover:bg-navy-700 md:py-4 md:text-lg md:px-10"
                   >
                     Contact Us
@@ -26,7 +26,7 @@ const Hero = () => {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="/services"
+                    href="#services"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-navy-600 bg-navy-100 hover:bg-navy-200 md:py-4 md:text-lg md:px-10"
                   >
                     Learn More <ArrowRight className="ml-2" size={20} />
